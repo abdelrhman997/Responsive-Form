@@ -1,0 +1,36 @@
+body{
+    background: url("https://img.freepik.com/premium-vector/padlock-with-keyhole-icon-personal-data-security-illustrates-cyber-data-information-privacy-idea-blue-color-abstract-hi-speed-internet-technology_542466-600.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background: darkgray;
+    padding:10px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+form input{
+    background-color:rgba(0, 0, 255, 0.433);
+    border: none !important;
+    outline: none !important;
+    color: white;
+    padding: 5px 10px;
+    flex-basis: 200px;
+    flex-grow: 1;
+
+}
+form button{
+    background-color: gainsboro;
+    color: blueviolet;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    flex-basis: 30px;
+    flex-grow: 1;
+}
